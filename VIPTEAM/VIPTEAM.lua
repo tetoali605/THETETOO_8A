@@ -228,7 +228,7 @@ function create_config( )
 "all",
 "anjb",
 "ar-info",
-"arabis_lock",
+"arabic_lock",
 "redis",
 "ar-supergruop",
 "banhammer",
@@ -256,15 +256,15 @@ function create_config( )
 "ax",
 "ingroup",
 "echo.",
-"lock_fwd",
+"lock-fwd",
 "lock_fwd",
 "kickm",
 "lock_link",
 "hello",
-"addbot1",	
-
+"addbot1",
+"kickme",
     },
-    sudo_users = { 246536126,250062838,0,tonumber(our_id)},--Sudo users
+    sudo_users = { 246536126,250062838,0tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Channel @no_no2]],
     help_text = [[Channel @no_no2]],
